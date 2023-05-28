@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">stregistration</string>
+    <string-array name="subjects">
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>English</item>
+    </string-array>
+
+</resources>
