@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="admission_categories">
+        <item>CS</item>
+        <item>IT</item>
+        <item>ENTC</item>
+    </string-array>
+</resources>
