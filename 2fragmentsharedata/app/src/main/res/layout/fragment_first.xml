@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quote of the day"
+            android:id="@+id/text1"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quote"
+            android:hint="Enter a good Quote"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SUBMIT"
+            android:fontFamily="sans-serif-black"
+            android:onClick="this"
+            tools:ignore="OnClick"/>
+    </LinearLayout>
+</FrameLayout>
