@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/openUrlButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:text="button1"/>
+
+    <Button
+        android:id="@+id/showPopupButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:text="button1"/>
+
+    <Button
+        android:id="@+id/goToActivityButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:text="button1"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:text="button1"/>
+
+</GridLayout>
