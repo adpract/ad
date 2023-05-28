@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="berth_choices">
+        <item>Upper</item>
+        <item>Middle</item>
+        <item>Lower</item>
+        <item>Side Upper</item>
+        <item>Side Lower</item>
+    </string-array>
+</resources>

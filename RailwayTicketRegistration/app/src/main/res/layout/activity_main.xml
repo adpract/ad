@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berth Choice:" />
+
+    <Spinner
+        android:id="@+id/spinner_berth_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/berth_choices" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination City:" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_mumbai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumbai" />
+
+        <RadioButton
+            android:id="@+id/radio_delhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhi" />
+
+        <RadioButton
+            android:id="@+id/radio_kolkata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kolkata" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meal Variety:" />
+
+    <CheckBox
+        android:id="@+id/checkbox_veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetarian" />
+
+    <CheckBox
+        android:id="@+id/checkbox_non_veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-Vegetarian" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+</LinearLayout>
